@@ -1,0 +1,47 @@
+{
+  "name": "react-render-iff",
+  "version": "1.2.0",
+  "description": "A helper component to render react components conditionally.",
+  "main": "dist/build.js",
+  "repository": {
+    "type": "git",
+    "url": "Lwdthe1/react-render-iff"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "render",
+    "render if",
+    "conditional",
+    "ng-show",
+    "ng-if",
+    "components"
+  ],
+  "author": "Lwdthe1",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@testing-library/react": "^9.4.0",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.6",
+    "jest": "^25.1.0",
+    "jest-extended": "^0.11.4",
+    "react": "^16.12.0",
+    "react-test-renderer": "^16.12.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "prop-types": "latest"
+  }
+}
