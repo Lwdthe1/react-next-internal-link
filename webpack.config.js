@@ -18,7 +18,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/RenderIf.jsx",
+  entry: "./src/InternalLink.jsx",
   module: {
     rules: [
       {

@@ -1,11 +1,11 @@
 {
-  "name": "react-render-iff",
-  "version": "1.2.0",
-  "description": "A helper component to render react components conditionally.",
+  "name": "react-next-internal-link",
+  "version": "1.0.0",
+  "description": "A helper component to easily create internal, relative links from absolute urls in your NextJS React apps.",
   "main": "dist/build.js",
   "repository": {
     "type": "git",
-    "url": "Lwdthe1/react-render-iff"
+    "url": "Lwdthe1/react-next-internal-link"
   },
   "scripts": {
     "test": "jest",
@@ -13,11 +13,16 @@
   },
   "keywords": [
     "react",
-    "render",
-    "render if",
-    "conditional",
-    "ng-show",
-    "ng-if",
+    "link",
+    "nextjs",
+    "next",
+    "internal",
+    "internal link",
+    "relative link",
+    "absolute link",
+    "relative url",
+    "absolute url",
+    "absolute to relative url",
     "components"
   ],
   "author": "Lwdthe1",
@@ -29,6 +34,7 @@
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
     "@testing-library/react": "^9.4.0",
@@ -42,6 +48,8 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "prop-types": "latest"
+    "next": "^9.2.1",
+    "prop-types": "latest",
+    "url-parse": "^1.4.7"
   }
 }

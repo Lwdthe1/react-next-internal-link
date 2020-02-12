@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InternalLink.test Creates internal (relative) link and passes along all props 1`] = `
+<a
+  className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
+  data-field1="field 1"
+  href="/collection/abc1"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+>
+  View collection abc1
+</a>
+`;
+
+exports[`InternalLink.test Creates internal (relative) link when provided 'as' is an absolute url with protocol and host 1`] = `
+<a
+  className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
+  href="/collections"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  View collections
+</a>
+`;
+
+exports[`InternalLink.test Creates internal (relative) link when provided 'as' is an absolute url with protocol and host and 'href' is provided 1`] = `
+<a
+  className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
+  href="/collection/abc1"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  View collection abc1
+</a>
+`;
+
+exports[`InternalLink.test Creates internal (relative) link with 'as' used as the final anchor href when 'href' and 'as' are provided. 1`] = `
+<a
+  className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
+  href="/collection/abc1"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  View collection abc1
+</a>
+`;
+
+exports[`InternalLink.test Creates internal (relative) link with 'href' used as the final anchor href when 'href' is provided with query params. 1`] = `
+<a
+  className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
+  href="/collection?id=abc1"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  View collection abc1
+</a>
+`;
+
+exports[`InternalLink.test Creates internal (relative) link with 'href' used as the final anchor href when only 'href' is provided 1`] = `
+<a
+  className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
+  href="/collections"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  View all
+</a>
+`;
