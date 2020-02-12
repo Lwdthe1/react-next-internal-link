@@ -62,8 +62,4 @@ InternalLink.propTypes = {
   as: PropTypes.string
 };
 
-InternalLink.defaultProps = {
-  as: undefined
-};
-
 export default InternalLink;
