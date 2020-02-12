@@ -32,9 +32,8 @@ class Example extends Component {
           <InternalLink
             href="collection?id=abc123"
             as="http://example.com/collection/abc123"
-            className="u-textColorGreen"
           >
-            Visit collection abc123
+            <a className="u-textColorGreen">Visit collection abc123</a>
           </InternalLink>
 
           <div>
@@ -47,7 +46,7 @@ class Example extends Component {
         </div>
 
         <div>
-          <h2>Example 1:</h2>
+          <h2>Example 2:</h2>
           <p>
             It still works with urls that have a port, query string, and/or hash
             fragment
@@ -58,7 +57,7 @@ class Example extends Component {
             as="http://example.com:3100/collection/abc123?user=userA&show=true#div=pricing"
             className="u-textColorGreen"
           >
-            Visit collection abc123
+            <a className="u-textColorGreen">Visit collection abc123</a>
           </InternalLink>
 
           <div>

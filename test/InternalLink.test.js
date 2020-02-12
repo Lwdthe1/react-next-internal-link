@@ -98,7 +98,6 @@ describe.only("InternalLink.test", () => {
         <a
           className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
           style={{ color: "red" }}
-          data-field1="field 1"
         >
           View collection abc1
         </a>
@@ -117,26 +116,6 @@ describe.only("InternalLink.test", () => {
         <a
           className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
           style={{ color: "red" }}
-          data-field1="field 1"
-        >
-          View collection abc1
-        </a>
-      </InternalLink>
-    );
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  test("Creates internal (relative) link and passes along all props", () => {
-    const component = renderer.create(
-      <InternalLink
-        href="/collection?id=abc1"
-        as="https://example.com/collection/abc1"
-      >
-        <a
-          className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
-          style={{ color: "red" }}
-          data-field1="field 1"
         >
           View collection abc1
         </a>
