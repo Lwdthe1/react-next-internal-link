@@ -28,6 +28,7 @@ class Example extends Component {
         <div>
           <h2>Example 1:</h2>
           <p>Convert absolute url to internal, relative url</p>
+
           <InternalLink
             href="collection?id=abc123"
             as="http://example.com/collection/abc123"
@@ -37,7 +38,36 @@ class Example extends Component {
           </InternalLink>
 
           <div>
+            <h3>The result of this example is:</h3>
+
             <a href="/collection/abc" className="u-textColorGreen">
+              Visit collection abc123
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h2>Example 1:</h2>
+          <p>
+            It still works with urls that have a port, query string, and/or hash
+            fragment
+          </p>
+
+          <InternalLink
+            href="collection?id=abc123"
+            as="http://example.com:3100/collection/abc123?user=userA&show=true#div=pricing"
+            className="u-textColorGreen"
+          >
+            Visit collection abc123
+          </InternalLink>
+
+          <div>
+            <h3>The result of this example is:</h3>
+
+            <a
+              href="/collection/abc?user=userA&show=true#div=pricing"
+              className="u-textColorGreen"
+            >
               Visit collection abc123
             </a>
           </div>

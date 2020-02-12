@@ -17,6 +17,57 @@ exports[`InternalLink.test Creates internal (relative) link and passes along all
 </a>
 `;
 
+exports[`InternalLink.test Creates internal (relative) link and respects url fragment 1`] = `
+<a
+  className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
+  data-field1="field 1"
+  href="/collection/abc1#div=pricing"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+>
+  View collection abc1
+</a>
+`;
+
+exports[`InternalLink.test Creates internal (relative) link and respects url query string and fragment 1`] = `
+<a
+  className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
+  data-field1="field 1"
+  href="/collection/abc1?do=something1&for=me#div=pricing"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+>
+  View collection abc1
+</a>
+`;
+
+exports[`InternalLink.test Creates internal (relative) link and respects url query string and fragment with port 1`] = `
+<a
+  className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
+  data-field1="field 1"
+  href="/collection/abc1?do=something1&for=me#div=pricing"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+>
+  View collection abc1
+</a>
+`;
+
 exports[`InternalLink.test Creates internal (relative) link when provided 'as' is an absolute url with protocol and host 1`] = `
 <a
   className="link u-paddingLeft2 u-textColorGreenNormal u-border0"
