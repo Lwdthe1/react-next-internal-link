@@ -1,6 +1,6 @@
 # react-next-internal-link
 
-![carbon (34)](https://user-images.githubusercontent.com/5778798/73144670-158b7100-4076-11ea-84e0-6b01bf1a42e1.png)
+![carbon (38)](https://user-images.githubusercontent.com/5778798/74358582-b0cb5880-4d8f-11ea-9aba-589fbce4fc5e.png)
 
 [![NPM](https://img.shields.io/npm/v/react-next-internal-link.svg)](https://www.npmjs.com/package/react-next-internal-link) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
