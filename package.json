@@ -1,6 +1,6 @@
 {
   "name": "react-next-internal-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A helper component to easily create internal, relative links from absolute urls in your NextJS React apps.",
   "main": "dist/build.js",
   "repository": {

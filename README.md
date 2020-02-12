@@ -1,5 +1,7 @@
 # react-next-internal-link
 
+A helper component to easily create internal, relative links from absolute urls in your NextJS React apps.
+
 ![carbon (38)](https://user-images.githubusercontent.com/5778798/74358582-b0cb5880-4d8f-11ea-9aba-589fbce4fc5e.png)
 
 [![NPM](https://img.shields.io/npm/v/react-next-internal-link.svg)](https://www.npmjs.com/package/react-next-internal-link) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
