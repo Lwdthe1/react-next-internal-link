@@ -29,7 +29,8 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+     "next": "^9.2.1",
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
@@ -48,7 +49,6 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "next": "^9.2.1",
     "prop-types": "latest",
     "url-parse": "^1.4.7"
   }
